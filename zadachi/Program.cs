@@ -8,13 +8,13 @@
 void RealnumbersMatrix ()
 {
 Console.Write("Введите количество строк массива: \t");
-int rows =Convert.ToInt32(Console.ReadLine());
+int row =Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите количество столбцов массива: \t");
-int columns =Convert.ToInt32(Console.ReadLine());
+int col =Convert.ToInt32(Console.ReadLine());
 
 
-double[,] matrix = new double[rows, columns];
+double[,] matrix = new double[row, col];
 
 for (int i = 0; i < matrix.GetLength(0); i++)
 {
